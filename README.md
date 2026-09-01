@@ -28,6 +28,7 @@ Analyzed **731 days of data (2011–2012)** encompassing **3.29 million transact
 In 2012, total rentals surged to 2.05M (a massive **64.9% YoY growth** from 2011). To prove this wasn't just seasonal luck, I applied Time Series Decomposition. The visualization below extracts the pure `Trend` line, confirming that the business is experiencing genuine, underlying baseline growth independent of the summer peak. 
 
 ![Time Series Decomposition](Images/viz_2.png)
+
 *Insight: The capacity must be permanently expanded to handle the new baseline, not just temporarily adjusted for summer.*
 
 ### 2. K-Means: Discovering Demand Profiles
@@ -37,12 +38,14 @@ Weather dictates demand, but how do we classify it? Using K-Means clustering on 
 * **Quiet Days (Red):** Bad weather (rain/light snow), where rentals plummet by up to 63% (averaging only 3,113/day).
 
 ![K-Means Weather Clustering](Images/viz_5.png)
+
 *Insight: Operations can integrate weather forecasts to preemptively balance bike stations 48 hours in advance based on these 3 specific cluster thresholds.*
 
 ### 3. The User Dichotomy: Casual vs. Registered
 The data revealed a complete behavioral opposite between the two user bases. **Registered members** dominate on workdays (peaking at ~4,000/day), utilizing the bikes for commuting. Conversely, **Casual users** hibernate during the week but surge by 2x on weekends (recreational use).
 
 ![Casual vs Registered Behavior](Images/viz_4.png)
+
 *Insight: Pricing and marketing must be split. Offer weekday subscription discounts to convert casual riders into registered commuters, and launch weekend leisure campaigns targeted solely at casual riders.*
 
 ---
