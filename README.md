@@ -56,10 +56,32 @@ The data revealed a complete behavioral opposite between the two user bases. **R
 ```text
 ├── data/
 │   └── day.csv                    # Original daily aggregated dataset
+│   └── hour.csv                   # Original hourly aggregated dataset
 ├── images/                        # Visualizations & dashboard screenshots
 ├── notebooks/
 │   └── bike_sharing_analysis.ipynb # Main EDA, Time Series, and K-Means code
 ├── app/
 │   └── dashboard.py               # (Optional) Streamlit dashboard source code
+│   └── final_data.csv             # Cleaned dataset used by the dashboard
 ├── requirements.txt               # Dependencies (pandas, scikit-learn, etc.)
 └── README.md
+```
+
+## 🚀 How to View & Run
+
+### 1. View Live Dashboard (Recommended)
+You can directly interact with the deployed Streamlit dashboard without installing anything:
+👉 **[Access Live Dashboard Here](https://projek1learndatadicoding.streamlit.app/)**
+
+### 2. View Technical Analysis (Jupyter Notebook)
+To view the step-by-step data cleaning, clustering, and time series decomposition:
+1. Clone this repository: `git clone https://github.com/yourusername/bike-sharing-demand.git`
+2. Install dependencies: `pip install -r requirements.txt`
+3. Open `notebook.ipynb` in your Jupyter environment.
+
+### 3. Launch Dashboard Locally
+If you want to run the dashboard on your local machine:
+1. Ensure you are in the project root directory.
+2. Run the following command in your terminal:
+   ```bash
+   streamlit run Dashboard/Dashboard_projek1.py
