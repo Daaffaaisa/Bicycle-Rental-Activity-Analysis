@@ -69,17 +69,13 @@ The data revealed a complete behavioral opposite between the two user bases. **R
 
 ## 🚀 How to View & Run
 
-### 1. View Live Dashboard (Recommended)
-You can directly interact with the deployed Streamlit dashboard without installing anything:
-👉 **[Access Live Dashboard Here](https://projek1learndatadicoding.streamlit.app/)**
-
-### 2. View Technical Analysis (Jupyter Notebook)
+### 1. View Technical Analysis (Jupyter Notebook)
 To view the step-by-step data cleaning, clustering, and time series decomposition:
 1. Clone this repository: `git clone https://github.com/yourusername/bike-sharing-demand.git`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Open `notebook.ipynb` in your Jupyter environment.
 
-### 3. Launch Dashboard Locally
+### 2. Launch Dashboard Locally
 If you want to run the dashboard on your local machine:
 1. Ensure you are in the project root directory.
 2. Run the following command in your terminal:
