@@ -7,7 +7,7 @@
 
 > **View the visual summary on my [Portfolio Website ↗]([MASUKKAN_LINK_WEBSITE_PORTOPOLIO_KAMU_DISINI])**
 
-![Streamlit Dashboard Preview](images/dashboard.png)
+![Streamlit Dashboard Preview](Images/dashboard.png)
 
 ## 📌 Business Problem
 Capital Bikeshare's rental demand is highly volatile, driven by external environmental factors (seasons, weather) and distinct user segments (casual renters vs. registered members). Without a data-driven model to understand these demand triggers, the business risks inefficient fleet distribution, missed revenue during peak conditions, and ineffective "one-size-fits-all" marketing strategies.
