@@ -83,4 +83,4 @@ If you want to run the dashboard on your local machine:
 1. Ensure you are in the project root directory.
 2. Run the following command in your terminal:
    ```bash
-   streamlit run Dashboard/Dashboard_projek1.py
+   streamlit run Dashboard/App.py
