@@ -74,7 +74,7 @@ The data revealed a complete behavioral opposite between the two user bases. **R
 
 ### 1. View Technical Analysis (Jupyter Notebook)
 To view the step-by-step data cleaning, clustering, and time series decomposition:
-1. Clone this repository: `git clone https://github.com/Daaffaaisa/Bicycle-Rental-Activity-Analysis.git.git`
+1. Clone this repository: `git clone https://github.com/Daaffaaisa/Bicycle-Rental-Activity-Analysis.git`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Open `notebook.ipynb` in your Jupyter environment.
 
